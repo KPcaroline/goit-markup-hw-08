@@ -1,1 +1,1 @@
-# testowe
+Praca domowa nr 1 
