@@ -1,1 +1,1 @@
-Praca domowa nr 2
+https://kpcaroline.github.io/goit-markup-hw-02/
