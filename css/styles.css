@@ -1,0 +1,212 @@
+body {
+    font-family: "Roboto", sans-serif;
+    width: 1600px;
+    height: 1880px;
+    color: #212121;
+}
+nav {
+    width: 1600px;
+    height: 80px;
+    cursor: pointer;
+    font-style: normal;
+}
+.nav-one {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.web-link {
+    font-size: 26px;
+    text-decoration: none;
+    color: #000000;
+    line-height: 1.38;
+    font-weight: 700;
+    margin-left: 215px;
+    letter-spacing: 0.03em;
+    font-family: "Raleway";
+    font-style: normal;
+}
+.portfolio-word {
+    color: #2196f3;
+}
+.blue-text {
+    color: #2196f3;
+    text-decoration: none;
+}
+.black-text {
+    text-decoration: none;
+    color: #212121;
+}
+.nav-mail {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+
+
+.web-studio-text {
+    font-size: 26px;
+    font-family: raleway;
+    font-weight: 700px;
+    line-height: 1.19;
+    opacity: 0.66;
+}
+
+.container-two {
+    height: 600px;
+    background-color: #2f303a;
+}
+.text-inside-two {
+    font-size: 44px;
+    font-weight: 900px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 200px;
+    line-height: 1.36;
+}
+
+
+.index-button {
+    color: #ffffff;
+    background-color: #2196f3;
+    width: 200px;
+    height: 50px;
+    margin-left: 700px;
+}
+.display-two {
+    display: flex;
+    flex-direction: row;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 94px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.71;
+    margin-right: 30px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700px;
+}
+.pictures {
+    margin-left: 215px;
+    margin-right: 215px;
+    padding-left: 30px;
+}
+
+section {
+    background-color: #f5f4fa;
+}
+.nasz-zespol {
+    font-size: 36px;
+    font-weight: 700px;
+    margin-left: 695px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.nasz-zespol-photos {
+    display: flex;
+}
+
+footer {
+    background-color: #2f303a;
+    height: 252px;
+}
+address {
+    padding-top: 60px;
+}
+.studio-text {
+    color: #ffffff;
+}
+.adress-details {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 215px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-top: 20px;
+}
+
+.city-street {
+    margin-bottom: 9px;
+}
+.tel-details {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.tel {
+    margin-top: 9px;
+}
+.footer-mail {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+li {
+    list-style-type: none;
+}
+
+.portfolio-buttons {
+    display: flex;
+    flex-direction: row;
+}
+.portfolio-button {
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    border-style: none;
+    height: 38px;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    margin-right: 8px;
+}
+
+.portfolio-button:active {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+.portfolio-button:hover {
+    background-color: #2196f3;
+    color: #ffffff;
+}
+figcaption {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    line-height: 2;
+}
+
+.text-details {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    list-style: 1.875;
+}
