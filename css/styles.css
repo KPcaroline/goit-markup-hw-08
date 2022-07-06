@@ -3,6 +3,7 @@ body {
     width: 1600px;
     height: 1880px;
     color: #212121;
+    text-decoration: none;
 }
 nav {
     width: 1600px;
@@ -47,9 +48,6 @@ nav {
     letter-spacing: 0.02em;
     color: #757575;
 }
-
-
-
 .web-studio-text {
     font-size: 26px;
     font-family: raleway;
@@ -70,7 +68,6 @@ nav {
     padding-top: 200px;
     line-height: 1.36;
 }
-
 
 .index-button {
     color: #ffffff;
