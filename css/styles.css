@@ -1,6 +1,12 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
-    width: 1600px;
+    max-width: 1600px;
     height: 1880px;
     color: #212121;
     text-decoration: none;
@@ -10,12 +16,25 @@ nav {
     height: 80px;
     cursor: pointer;
     font-style: normal;
+    display: flex;
+    border: 1px solid #ececec;
 }
+
 .nav-one {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    margin-right: 364px;
+    display: flex;
+}
+.mail-tel {
+    display: flex;
+    margin-top: 32px;
+}
+.nav-two {
+    margin-left: 93px;
+    margin-top: 32px;
 }
 .web-link {
     font-size: 26px;
@@ -27,9 +46,12 @@ nav {
     letter-spacing: 0.03em;
     font-family: "Raleway";
     font-style: normal;
+    margin-top: 24px;
 }
 .portfolio-word {
     color: #2196f3;
+}
+.agencja-porfolio-kontakt {
 }
 .blue-text {
     color: #2196f3;
@@ -38,6 +60,7 @@ nav {
 .black-text {
     text-decoration: none;
     color: #212121;
+    margin-right: 46px;
 }
 .nav-mail {
     text-decoration: none;
@@ -47,6 +70,8 @@ nav {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    display: flex;
+    margin-right: 50px;
 }
 .web-studio-text {
     font-size: 26px;
@@ -54,6 +79,9 @@ nav {
     font-weight: 700px;
     line-height: 1.19;
     opacity: 0.66;
+}
+.images-portfolio {
+    display: block;
 }
 
 .container-two {
@@ -88,30 +116,70 @@ p {
     font-size: 14px;
     line-height: 1.71;
     margin-right: 30px;
-}
-h2 {
-    font-size: 36px;
-    font-weight: 700px;
-}
-.pictures {
-    margin-left: 215px;
-    margin-right: 215px;
-    padding-left: 30px;
+    color: #757575;
 }
 
+.pictures {
+    display: flex;
+    margin-left: 175px;
+    list-style: none;
+}
+.images-two {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.background-cointainer {
+    display: block;
+}
+.what-we-do {
+    margin-left: 624px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 94px;
+}
 section {
     background-color: #f5f4fa;
 }
-.nasz-zespol {
+.our-team {
     font-size: 36px;
     font-weight: 700px;
-    margin-left: 695px;
-    text-align: center;
+    line-height: 1.17;
     display: flex;
-    flex-direction: row;
 }
-.nasz-zespol-photos {
+.our-team-text {
+    margin-left: 695px;
+    font-size: 36px;
+    font-weight: 700px;
+    margin-left: 624px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.our-team-photos {
     display: flex;
+    list-style: none;
+}
+
+.name-surname {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.job-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
 
 footer {
@@ -147,7 +215,7 @@ address {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: #ffffff99;
 }
 
 .tel {
@@ -160,28 +228,30 @@ address {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: #ffffff99;
 }
 
-li {
+.li-style {
     list-style-type: none;
 }
 
 .portfolio-buttons {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 94px;
 }
 .portfolio-button {
     cursor: pointer;
     font-size: 16px;
     border-radius: 4px;
     border-style: none;
-    height: 38px;
     font-family: "Roboto";
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.625;
     letter-spacing: 0.03em;
     margin-right: 8px;
+    height: 38px;
 }
 
 .portfolio-button:active {
@@ -191,19 +261,48 @@ li {
 .portfolio-button:hover {
     background-color: #2196f3;
     color: #ffffff;
-}
-figcaption {
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.06em;
-    line-height: 2;
+    
 }
 
-.text-details {
-    color: #757575;
+.text-details-one {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-left: 24px;
+}
+.text-details-two {
+    font-family: "Roboto";
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    list-style: 1.875;
+    margin-left: 24px;
+    color: #757575;
+}
+
+figcaption {
+    background-color: #ffffff;
+}
+
+.border {
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    display: block;
+}
+.photos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 94px;
+}
+.photos-part-one {
+    display: flex;
+    justify-content: center;
+}
+.photos-part-three {
+    display: flex;
+    justify-content: center;
 }
