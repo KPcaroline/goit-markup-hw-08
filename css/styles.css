@@ -22,6 +22,9 @@ body {
     height: 1880px;
     text-decoration: none;
 }
+.container {
+    width: 1200px;
+}
 nav {
     width: 1600px;
     height: 80px;
@@ -168,7 +171,6 @@ section {
     font-weight: 700px;
     margin-left: 695px;
     margin-top: 94px;
-    
 }
 .our-team-photos {
     display: flex;
@@ -191,11 +193,7 @@ section {
     padding-bottom: 30px;
     text-align: center;
 }
-.our-team-cointainer {
-    display: inline-block;
-    width: 1600px;
-   
-}
+
 footer {
     background-color: var(--container-color);
     height: 252px;
