@@ -3,7 +3,10 @@
 *::after {
     box-sizing: border-box;
 }
-
+* {
+    margin: 0;
+    padding-left: 0;
+}
 :root {
     --dark-color: #212121;
     --border-color: #ececec;
@@ -18,19 +21,16 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    max-width: 1600px;
-    height: 1880px;
     text-decoration: none;
+    width: 1600px;
 }
 .container {
     width: 1200px;
 }
 nav {
     width: 1600px;
-    height: 80px;
     cursor: pointer;
     font-style: normal;
-    display: flex;
     border: 1px solid var(--border-color);
 }
 
@@ -39,19 +39,21 @@ nav {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    margin-right: 364px;
     display: flex;
 }
 .mail-tel {
     display: flex;
-    margin-top: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    margin-left: 93px;
+    margin-top: 32px;
+    letter-spacing: 0.02em;
 }
 .nav-two {
     margin-left: 93px;
     margin-top: 32px;
+    margin-bottom: 32px;
 }
 .web-link {
     font-size: 26px;
@@ -99,10 +101,8 @@ nav {
 }
 
 .header-inside {
-    height: 600px;
     width: 1600px;
     background-color: var(--container-color);
-    display: inline-block;
 }
 .text-header-inside {
     font-size: 44px;
@@ -110,6 +110,7 @@ nav {
     color: var(--white-color);
     text-align: center;
     padding-top: 200px;
+    padding-bottom: 30px;
     line-height: 1.36;
 }
 
@@ -117,7 +118,8 @@ nav {
     color: var(--white-color);
     background-color: var(--blue-color);
     width: 200px;
-    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-left: 700px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -128,6 +130,8 @@ nav {
     line-height: 30px;
     border-style: none;
     letter-spacing: 0.06em;
+    cursor: pointer;
+    margin-bottom: 200px;
 }
 
 .pictures {
@@ -160,7 +164,7 @@ nav {
     margin-top: 94px;
     margin-bottom: 50px;
 }
-section {
+.our-team-background {
     background-color: var(--section-color);
 }
 
@@ -171,10 +175,13 @@ section {
     font-weight: 700px;
     margin-left: 695px;
     margin-top: 94px;
+    margin-bottom: 50px;
 }
 .our-team-photos {
     display: flex;
     list-style: none;
+    justify-content: space-between;
+    
 }
 .name-surname {
     font-weight: 500;
@@ -245,6 +252,8 @@ address {
 
 .li-style {
     list-style-type: none;
+    display: inline-block;
+    
 }
 p {
     font-size: 14px;
@@ -253,12 +262,11 @@ p {
     color: var(--nav-mail-color);
     letter-spacing: 0.03em;
 }
-.lorem-ipsum {
-    display: flex;
-    flex-direction: row;
+
+.lorem-impsum {
     margin-top: 94px;
-    margin-left: 175px;
 }
+
 .portfolio-buttons {
     display: flex;
     justify-content: center;
