@@ -22,7 +22,6 @@
 body {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    
 }
 .container {
     width: 1200px;
@@ -45,6 +44,7 @@ header {
 .mail-tel {
     display: flex;
     margin-left: 93px;
+    margin-top: 32px;
 }
 nav {
     margin-top: 32px;
@@ -56,11 +56,11 @@ nav {
     color: var(--web-link-color);
     line-height: 1.38;
     font-weight: 700;
-    
     margin-right: 93px;
     letter-spacing: 0.03em;
     font-family: "Raleway";
     font-style: normal;
+    margin-top: 24px;
 }
 .blue-text {
     color: var(--blue-color);
@@ -115,7 +115,6 @@ nav {
     width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: "Roboto";
@@ -207,7 +206,6 @@ address {
 .adress-details {
     color: var(--white-color);
     text-decoration: none;
-    margin-left: 215px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -246,7 +244,6 @@ address {
 .li-style {
     list-style-type: none;
     display: inline-block;
-    
 }
 p {
     font-size: 14px;
@@ -254,10 +251,6 @@ p {
     margin-right: 30px;
     color: var(--nav-mail-color);
     letter-spacing: 0.03em;
-}
-
-.lorem-impsum {
-    margin-top: 94px;
 }
 
 .portfolio-buttons {
