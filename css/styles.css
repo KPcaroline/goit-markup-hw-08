@@ -22,13 +22,13 @@
 body {
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    width: 1600px;
+    
 }
 .container {
     width: 1200px;
+    margin: 0 auto;
 }
-nav {
-    width: 1600px;
+header {
     cursor: pointer;
     font-style: normal;
     border: 1px solid var(--border-color);
@@ -41,17 +41,12 @@ nav {
     letter-spacing: 0.02em;
     display: flex;
 }
+
 .mail-tel {
     display: flex;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
     margin-left: 93px;
-    margin-top: 32px;
-    letter-spacing: 0.02em;
 }
-.nav-two {
-    margin-left: 93px;
+nav {
     margin-top: 32px;
     margin-bottom: 32px;
 }
@@ -61,11 +56,11 @@ nav {
     color: var(--web-link-color);
     line-height: 1.38;
     font-weight: 700;
-    margin-left: 215px;
+    
+    margin-right: 93px;
     letter-spacing: 0.03em;
     font-family: "Raleway";
     font-style: normal;
-    margin-top: 24px;
 }
 .blue-text {
     color: var(--blue-color);
@@ -78,6 +73,7 @@ nav {
     font-weight: 500;
     font-size: 14px;
 }
+
 .nav-mail {
     text-decoration: none;
     font-style: normal;
@@ -101,7 +97,6 @@ nav {
 }
 
 .header-inside {
-    width: 1600px;
     background-color: var(--container-color);
 }
 .text-header-inside {
@@ -120,23 +115,22 @@ nav {
     width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-left: 700px;
+    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875;
     border-style: none;
     letter-spacing: 0.06em;
     cursor: pointer;
     margin-bottom: 200px;
+    margin-left: 500px;
 }
-
 .pictures {
     display: flex;
-    margin-left: 175px;
     list-style: none;
     margin-bottom: 44px;
 }
@@ -153,7 +147,7 @@ nav {
     border-radius: 0px 0px 4px 4px;
 }
 .what-we-do {
-    margin-left: 624px;
+    margin-left: 424px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
@@ -181,7 +175,6 @@ nav {
     display: flex;
     list-style: none;
     justify-content: space-between;
-    
 }
 .name-surname {
     font-weight: 500;
@@ -270,8 +263,8 @@ p {
 .portfolio-buttons {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 94px;
+    padding-bottom: 50px;
+    padding-top: 94px;
     list-style: none;
 }
 .portfolio-button {
