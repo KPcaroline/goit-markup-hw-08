@@ -21,7 +21,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    text-decoration: none;
 }
 .container {
     width: 1200px;
@@ -38,17 +37,15 @@ header {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    display: flex;
 }
-
+.nav-wrapper {
+    padding: 32px 0px;
+}
 .mail-tel {
-    display: flex;
-    margin-left: 93px;
-    margin-top: 32px;
+    padding: 32px 0px;
 }
-nav {
-    margin-top: 32px;
-    margin-bottom: 32px;
+.header-wrapper {
+    display: flex;
 }
 .web-link {
     font-size: 26px;
@@ -56,11 +53,10 @@ nav {
     color: var(--web-link-color);
     line-height: 1.38;
     font-weight: 700;
-    margin-right: 93px;
     letter-spacing: 0.03em;
-    font-family: "Raleway";
-    font-style: normal;
-    margin-top: 24px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-right: 93px;
 }
 .blue-text {
     color: var(--blue-color);
@@ -82,7 +78,6 @@ nav {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--nav-mail-color);
-    display: flex;
     margin-right: 50px;
 }
 .web-studio-text {
@@ -91,9 +86,6 @@ nav {
     font-weight: 700px;
     line-height: 1.19;
     opacity: 0.66;
-}
-.images-portfolio {
-    display: block;
 }
 
 .header-inside {
@@ -133,11 +125,7 @@ nav {
     list-style: none;
     margin-bottom: 44px;
 }
-.images-two {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 50px;
-}
+
 .background-cointainer {
     background-color: var(--white-color);
     margin-bottom: 80px;
@@ -199,6 +187,7 @@ footer {
 }
 address {
     padding-top: 60px;
+    font-style: normal;
 }
 .studio-text {
     color: var(--white-color);
@@ -206,18 +195,16 @@ address {
 .adress-details {
     color: var(--white-color);
     text-decoration: none;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     margin-top: 20px;
 }
-
 .city-street {
     margin-bottom: 9px;
 }
+
 .tel-details {
     text-decoration: none;
     font-style: normal;
@@ -232,7 +219,6 @@ address {
     margin-top: 9px;
 }
 .footer-mail {
-    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -247,7 +233,7 @@ address {
 }
 p {
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.7;
     margin-right: 30px;
     color: var(--nav-mail-color);
     letter-spacing: 0.03em;
@@ -313,13 +299,17 @@ figcaption {
     border-left: 1px solid var(--border-color);
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
-    display: block;
+    border-top: 1px solid var(--border-color);
     padding-top: 20px;
 }
 .photos {
-    display: flex;
-    justify-content: center;
+    list-style: none;
     margin-bottom: 94px;
+}
+.photos-inside {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
 }
 .photos-part-one {
     display: flex;
