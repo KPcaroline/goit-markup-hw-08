@@ -128,9 +128,12 @@ header {
 .pictures {
     display: flex;
     list-style: none;
-    margin-bottom: 44px;
+    padding-bottom: 94px;
+   
 }
-
+.pictures-what-we-do {
+    padding-right: 30px;
+}
 .background-cointainer {
     background-color: var(--white-color);
     margin-bottom: 80px;
@@ -155,13 +158,12 @@ header {
 }
 
 .our-team-text {
-    margin-left: 695px;
     line-height: 1.17;
     font-size: 36px;
     font-weight: 700px;
-    margin-left: 695px;
-    margin-top: 94px;
+    padding-top: 94px;
     margin-bottom: 50px;
+  padding-left: 485px;
 }
 .our-team-photos {
     display: flex;
@@ -175,6 +177,8 @@ header {
     letter-spacing: 0.03em;
     color: var(--dark-color);
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 .job-title {
     font-weight: 400;
@@ -235,6 +239,7 @@ address {
 .li-style {
     list-style-type: none;
     padding-right: 30px;
+    padding-top: 94px;
 }
 .ul-wrapper {
     display: flex;
