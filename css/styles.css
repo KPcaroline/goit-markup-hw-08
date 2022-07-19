@@ -176,7 +176,10 @@ header {
 .our-team-photos {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    Width: 270px;
+}
+.our-team {
+    margin-right: 30px;
 }
 .name-surname {
     font-weight: 500;
@@ -186,7 +189,6 @@ header {
     color: var(--dark-color);
     text-align: center;
     padding-top: 30px;
-   
 }
 .job-title {
     font-weight: 400;
@@ -368,19 +370,33 @@ figcaption {
     fill: rgba(255, 255, 255, 0.1);
 }
 .social-links {
+    list-style: none;
+    display: flex;
     padding-left: 171px;
     padding-top: 20px;
-    
 }
+
 .clients-border {
     border: 1px solid #afb1b8;
     border-radius: 4px;
     width: 170px;
     height: 92px;
     margin-right: 30px;
+    fill: #AFB1B8;
 }
 .clients-border:hover {
-    color: #2196f3;
+    fill: #2196f3;
+    border: 1px solid #2196f3;
+    
+}
+.social-link {
+    padding-right: 10px;
+    cursor: pointer;
+    fill: #ffffff;
+}
+.social-link:hover {
+    fill: #2196f3;
+
 }
 .our-clients {
     padding-top: 92px;
@@ -392,9 +408,18 @@ figcaption {
     padding-bottom: 50px;
 }
 .icon-figcaption {
-    text-align: center;
+    display: flex;
+    list-style: none;
     padding-bottom: 30px;
+    fill: #ffffff;
+    padding-left: 32px;
 }
-.icon-figcaption:hover {
-fill: #2196F3;
+.icon-hover:hover {
+    fill: #2196f3;
+}
+
+.icon-Group {
+    background: #f5f4fa;
+    border-radius: 4px;
+   
 }
