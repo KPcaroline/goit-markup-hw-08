@@ -17,6 +17,17 @@
     --white-color: #ffffff;
     --section-color: #f5f4fa;
     --tel-details-color: #ffffff99;
+    --icon-border: #afb1b8;
+    --icon-color: rgba(255, 255, 255, 0.1);
+    --grey-shadow-one: rgba(0, 0, 0, 0.12); 
+    --grey-shadow-two: rgba(0, 0, 0, 0.06);
+    --grey-shadow-three: rgba(0, 0, 0, 0.16);
+    --grey-shadow-four:rgba(47, 48, 58, 0.4);
+    --grey-shadow-five:rgba(47, 48, 58, 0.4);
+    --grey-shadow-six:rgba(0, 0, 0, 0.15);
+    --grey-shadow-seven: rgba(0, 0, 0, 0.14);
+    --grey-shadow-eight: rgba(0, 0, 0, 0.2);
+
 }
 
 body {
@@ -77,7 +88,7 @@ header {
     font-size: 14px;
 }
 .black-text:hover {
-    color: #2196f3;
+    color: var(--blue-color);
 }
 
 .nav-mail {
@@ -91,7 +102,7 @@ header {
     margin-right: 50px;
 }
 .nav-mail:hover {
-    color: #2196f3;
+    color:var(--blue-color);
 }
 
 .web-studio-text {
@@ -129,7 +140,7 @@ header {
     width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--grey-shadow-six);
     border-radius: 4px;
     font-family: "Roboto";
     font-style: normal;
@@ -153,8 +164,8 @@ header {
 .background-cointainer {
     background-color: var(--white-color);
     margin-bottom: 80px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px var(--grey-shadow-one), 0px 1px 1px var(--grey-shadow-seven),
+        0px 2px 1px var(--grey-shadow-eight);
     border-radius: 0px 0px 4px 4px;
 }
 .what-we-do {
@@ -345,8 +356,8 @@ figcaption {
 }
 .photos-shadow:hover {
     cursor: pointer;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-        1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 1px var(--grey-shadow-one), 0px 4px 4px var(--grey-shadow-two),
+        1px 4px 6px var(--grey-shadow-three);
 }
 .img-no-gap {
     display: block;
@@ -365,14 +376,14 @@ figcaption {
 }
 .icon-inside {
     padding-right: 10px;
-    fill: #757575;
+    fill: var(--nav-mail-color);
 }
 .icon-inside:hover {
-    fill: #2196f3;
+    fill: var(--blue-color);
 }
 
 .join-to-us {
-    color: white;
+    color: var(--white-color);
     padding-left: 171px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -384,7 +395,7 @@ figcaption {
     display: flex;
 }
 .icon-Ellipse-1 {
-    fill: rgba(255, 255, 255, 0.1);
+    fill: var(--icon-color);
 }
 .social-links {
     list-style: none;
@@ -394,24 +405,24 @@ figcaption {
 }
 
 .clients-border {
-    border: 1px solid #afb1b8;
+    border: 1px solid var(--icon-border);
     border-radius: 4px;
     width: 170px;
     height: 92px;
     margin-right: 30px;
-    fill: #afb1b8;
+    fill: var(--icon-border);
 }
 .clients-border:hover {
-    fill: #2196f3;
-    border: 1px solid #2196f3;
+    fill: var(--blue-color);
+    border: 1px solid var(--blue-color);
 }
 .social-link {
     padding-right: 10px;
     cursor: pointer;
-    fill: #ffffff;
+    fill: var(--white-color);
 }
 .social-link:hover {
-    fill: #2196f3;
+    fill: var(--blue-color);
 }
 .our-clients {
     padding-top: 92px;
@@ -426,14 +437,14 @@ figcaption {
     display: flex;
     list-style: none;
     padding-bottom: 30px;
-    fill: #ffffff;
+    fill: var(--white-color);
     padding-left: 32px;
 }
 .icon-hover:hover {
-    fill: #2196f3;
+    fill: var(--blue-color);
 }
 
 .icon-Group {
-    background: #f5f4fa;
+    background: var(--section-color);
     border-radius: 4px;
 }
