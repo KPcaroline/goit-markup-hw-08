@@ -19,15 +19,14 @@
     --tel-details-color: #ffffff99;
     --icon-border: #afb1b8;
     --icon-color: rgba(255, 255, 255, 0.1);
-    --grey-shadow-one: rgba(0, 0, 0, 0.12); 
+    --grey-shadow-one: rgba(0, 0, 0, 0.12);
     --grey-shadow-two: rgba(0, 0, 0, 0.06);
     --grey-shadow-three: rgba(0, 0, 0, 0.16);
-    --grey-shadow-four:rgba(47, 48, 58, 0.4);
-    --grey-shadow-five:rgba(47, 48, 58, 0.4);
-    --grey-shadow-six:rgba(0, 0, 0, 0.15);
+    --grey-shadow-four: rgba(47, 48, 58, 0.4);
+    --grey-shadow-five: rgba(47, 48, 58, 0.4);
+    --grey-shadow-six: rgba(0, 0, 0, 0.15);
     --grey-shadow-seven: rgba(0, 0, 0, 0.14);
     --grey-shadow-eight: rgba(0, 0, 0, 0.2);
-
 }
 
 body {
@@ -102,7 +101,7 @@ header {
     margin-right: 50px;
 }
 .nav-mail:hover {
-    color:var(--blue-color);
+    color: var(--blue-color);
 }
 
 .web-studio-text {
@@ -122,7 +121,6 @@ header {
         url(../images/backgroundimg.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
-   
 }
 .text-header-inside {
     font-size: 44px;
@@ -164,7 +162,8 @@ header {
 .background-cointainer {
     background-color: var(--white-color);
     margin-bottom: 80px;
-    box-shadow: 0px 1px 3px var(--grey-shadow-one), 0px 1px 1px var(--grey-shadow-seven),
+    box-shadow: 0px 1px 3px var(--grey-shadow-one),
+        0px 1px 1px var(--grey-shadow-seven),
         0px 2px 1px var(--grey-shadow-eight);
     border-radius: 0px 0px 4px 4px;
 }
@@ -356,8 +355,8 @@ figcaption {
 }
 .photos-shadow:hover {
     cursor: pointer;
-    box-shadow: 0px 1px 1px var(--grey-shadow-one), 0px 4px 4px var(--grey-shadow-two),
-        1px 4px 6px var(--grey-shadow-three);
+    box-shadow: 0px 1px 1px var(--grey-shadow-one),
+        0px 4px 4px var(--grey-shadow-two), 1px 4px 6px var(--grey-shadow-three);
 }
 .img-no-gap {
     display: block;
@@ -440,11 +439,17 @@ figcaption {
     fill: var(--white-color);
     padding-left: 32px;
 }
-.icon-hover:hover {
-    fill: var(--blue-color);
+
+.socialmedia-link:hover {
+fill: #2196f3;
+
 }
+
 
 .icon-Group {
     background: var(--section-color);
     border-radius: 4px;
+}
+.socialmedia-link path:hover {
+fill: #ffffff;
 }
