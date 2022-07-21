@@ -82,7 +82,9 @@ header {
     color: #2196f3;
     fill: #2196f3;
 }
-
+#icon-Group {
+  fill: #2196f3;
+}
 .header-wrapper {
     display: flex;
 }
@@ -315,11 +317,8 @@ p {
     font-size: 16px;
 }
 
+.portfolio-button:hover,
 .portfolio-button:active {
-    background-color: var(--blue-color);
-    color: var(--white-color);
-}
-.portfolio-button:hover {
     background-color: var(--blue-color);
     color: var(--white-color);
 }
@@ -391,9 +390,6 @@ figcaption {
 .footer-with-social {
     display: flex;
 }
-.icon-Ellipse-1 {
-    fill: var(--icon-color);
-}
 .social-links {
     list-style: none;
     display: flex;
@@ -416,7 +412,7 @@ figcaption {
 .social-link {
     padding-right: 10px;
     cursor: pointer;
-    fill: var(--white-color);
+    fill: rgba(255, 255, 255, 0.1);;
 }
 .social-link:hover {
     fill: var(--blue-color);
@@ -434,18 +430,16 @@ figcaption {
     display: flex;
     list-style: none;
     padding-bottom: 30px;
-    fill: var(--white-color);
     padding-left: 32px;
 }
 
 .socialmedia-link:hover {
     fill: #2196f3;
 }
-
+.socialmedia-link {
+    fill: pink;
 .icon-Group {
     background: var(--section-color);
     border-radius: 4px;
 }
-.socialmedia-link path:hover {
-    fill: #ffffff;
-}
+
