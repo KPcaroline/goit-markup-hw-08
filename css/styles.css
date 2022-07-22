@@ -416,6 +416,7 @@ figcaption {
 }
 .social-link:hover {
     fill: var(--blue-color);
+   
 }
 .our-clients {
     padding-top: 92px;
@@ -433,11 +434,6 @@ figcaption {
     padding-left: 32px;
 }
 
-.socialmedia-link:hover {
-    fill: #2196f3;
-}
-.socialmedia-link {
-    fill: pink;
 .icon-Group {
     background: var(--section-color);
     border-radius: 4px;
