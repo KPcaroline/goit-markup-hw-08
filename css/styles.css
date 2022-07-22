@@ -413,7 +413,8 @@ figcaption {
     padding-right: 10px;
     fill: rgba(255, 255, 255, 0.1);
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     fill: var(--blue-color);
 }
 .our-clients {
