@@ -409,6 +409,7 @@ figcaption {
     fill: var(--blue-color);
     border: 1px solid var(--blue-color);
 }
+/* 
 .social-link {
     padding-right: 10px;
     fill: rgba(255, 255, 255, 0.1);
@@ -416,6 +417,24 @@ figcaption {
 .social-link:hover,
 .social-link:focus {
     fill: var(--blue-color);
+}
+*/
+.social-link a {
+    display: flex;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-link a:hover {
+    background: #2196f3;
+}
+
+.social-link a:hover svg {
+    fill: white;
+}
+
+.social-link a svg {
+    fill: gray;
 }
 .our-clients {
     padding-top: 92px;
