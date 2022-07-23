@@ -377,7 +377,7 @@ figcaption {
     display: flex;
     justify-content: center;
 }
-
+/* start "FOOTER" */
 .join-to-us {
     color: var(--white-color);
     padding-left: 171px;
@@ -386,17 +386,26 @@ figcaption {
     padding-top: 72px;
     font-weight: 700;
 }
-
 .footer-with-social {
     display: flex;
 }
-.social-links {
+.social-icon-footer {
     list-style: none;
     display: flex;
     padding-left: 171px;
     padding-top: 20px;
 }
+.social-icon {
+    padding-right: 10px;
+    fill: rgba(255, 255, 255, 0.1);  
+}
+.social-icon:hover{
+    fill: var(--blue-color);
+}
+/* end "FOOTER" */
 
+
+/* start "OUR CLIENTS"  */
 .clients-border {
     border: 1px solid var(--icon-border);
     border-radius: 4px;
@@ -409,19 +418,20 @@ figcaption {
     fill: var(--blue-color);
     border: 1px solid var(--blue-color);
 }
-/* 
-.social-link {
-    padding-right: 10px;
-    fill: rgba(255, 255, 255, 0.1);
-}
+/* end "OUR CLIENTS" */
+
+
+/*
 .social-link:hover,
 .social-link:focus {
     fill: var(--blue-color);
 }
 */
+
+/* OUR TEAM icons !!!*/
 .social-link a {
     display: flex;
-    padding: 10px;
+    padding: 15px;
     border-radius: 50%;
 }
 
@@ -434,8 +444,10 @@ figcaption {
 }
 
 .social-link a svg {
-    fill: gray;
+    fill: #AFB1B8;
 }
+/* OUR TEAM icons end */
+
 .our-clients {
     padding-top: 92px;
     text-align: center;
