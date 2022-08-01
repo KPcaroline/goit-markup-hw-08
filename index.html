@@ -67,14 +67,36 @@
                         </button>
                     <div class="backdrop is-hidden" data-modal>
                         <section class="modal">
-                              <button class="close-btn" data-modal-close>x</button>
-                              <form>
-                                <label>
-                                  Username
-                                  <input type="text" name="username" placeholder="Jacob Mercer" />
-                                </label>
-                                <button type="submit">Submit</button>
-                              </form>
+                              <button class="close-btn" data-modal-close>X</button>
+        <form><p class="form-text">Zostaw swoje dane w formularzu poniżej</p>
+            
+                <label>
+                <p class="inside-text">Imie</p>
+                <div class="inputwithicons">
+                    <input type="text" username="name" required/>
+                    <svg width="16" height="19"> <use href="./images/icons.svg#icon-person-black-18dp-1"></use></svg>
+                
+            </div>   </label>
+
+                 <label> 
+                <p class="inside-text">Telefon</p>
+                <input type="tel" username="telephone" required/></label>
+                
+                <label>
+                <p class="inside-text">Email</p>
+                <input type="email" name="email" required/></label>
+                
+                <label>
+                <p class="inside-text">Komentarz</p>
+    <textarea name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea></label>
+                                  
+<div class="check-and-rules">
+<input class="checkbox" id="check-box" type="checkbox" name="rules"/>
+<label for="rules-input"><p class="rules-text">Oświadczam iż akceptuję <a class="rules-link" href="Rules">Regulamin</a> i
+    <a class="rules-link" href="Privacy policy"> Politykę Prywatności.</a></p></label></label></div>
+               
+    <button class="send-button" type="submit"><span class="send-text">Wyślij</span></button>
+                </form>
                         </section>
                     </div>  
                 </div>
@@ -387,6 +409,19 @@
                             <use href="./images/icons.svg#icon-Ellipse-12"></use></svg></a></li>
                      </ul>
                 </div>
+                <div>
+                    <p class="sign-in-text"> ZAPISZ SIĘ DO NEWSLETTERA </p>
+                    <form name="signup_form" autocomplete="on" novalidate>
+                      <label>
+                        <input class="email" type="email" name="email" placeholder=" E-mail"/>
+                        <button class="btn-footer" type="submit"><p class="sign-in-text-two">Zapisz się</p>
+                          <svg class="icon-send" width="24" height="24">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                         </svg>
+                         </button>
+                       </label>
+                      </form>
+                  </div>
             </div>
         </footer>
     <script src="./js/modal.js"></script>
