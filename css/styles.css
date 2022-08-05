@@ -561,6 +561,15 @@ address {
 /* portfolio footer */
 
 /* modal */
+
+.inputwithicons use {
+    transition: 3s;
+}
+input [type=text]:focus {
+    border-color: #2196f3;
+
+}
+
 textarea,
 input {
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -577,9 +586,7 @@ textarea {
     height: 120px;
     margin-left: 40px;
 }
-.rules-input {
-   
-} 
+
 .rules-link {
     color: #2196f3;
 }
@@ -587,11 +594,19 @@ textarea {
     color: #ffffff;
 }
 .check-and-rules {
-   display: flex;
-   margin-bottom: 25px;
+    display: flex;
+    margin-bottom: 25px;
 }
-.rules-text {
-
+textarea::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    padding-top: 12px;
+    padding-left: 16px;
+    color: rgba(117, 117, 117, 0.5);
 }
 .positionsvg {
     position: relative;
@@ -599,13 +614,12 @@ textarea {
 }
 
 .inputwithicons {
-position: relative;
+    position: relative;
 }
 .inputwithicons svg {
     position: absolute;
     left: 55px;
     top: 12px;
-
 }
 .checkbox {
     width: 16px;
@@ -625,7 +639,7 @@ position: relative;
     margin-left: 164px;
     margin-bottom: 40px;
 }
-::placeholder {
+::placeholder input {
     padding-left: 16px;
     padding-top: 12px;
     font-size: 12px;
@@ -719,3 +733,4 @@ position: relative;
 }
 
 /* === end BACKDROP === */
+
