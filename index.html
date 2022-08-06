@@ -73,32 +73,42 @@
                 <label>
                 <p class="inside-text">Imie</p>
                 <div class="inputwithicons">
-                    <input type="text" username="name" required/>
-                    <svg class="icon-telephone" width="19" height="19"> <use href="./images/icons.svg#icon-person-black-18dp-1" ></use></svg>
+                    <input class="borders" type="text" username="name" required/>
+                    <svg width="19" height="19"> <use href="./images/icons.svg#icon-person-black-18dp-1" ></use></svg>
                 </div></label>
 
                  <label> 
                 <p class="inside-text">Telefon</p>
                 <div class="inputwithicons">
-                <input type="tel" username="telephone" required/>
+                <input class="borders" type="tel" username="telephone" required/>
                 <svg width="19" height="19"> <use href="./images/icons.svg#icon-phone-black-18dp-1"></use></svg>
                 </div></label>
                 
                 <label>
                 <p class="inside-text">Email</p>
                 <div class="inputwithicons">
-                <input type="email" name="email" required/>
+                <input class="borders" type="email" name="email" required/>
                 <svg width="19" height="19"> <use href="./images/icons.svg#icon-email-black-18dp-1"></use></svg>
                 </div></label>
 
                 <p class="inside-text">Komentarz</p>
-             <textarea name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea></label>
+                <textarea name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea></label>
                                   
              <div class="check-and-rules">
-                  <input class="checkbox" id="check-box" type="checkbox" name="rules"/>
-                 <label for="rules-input"><p class="rules-text">Oświadczam iż akceptuję 
+                  <label class="checkbox-window" for="rules-input">
+                  
+                  <input class="checkbox" type="checkbox" name="rules" required/>
+                  <span class="checkmark">
+                    <svg class="checkbox-icon" width="16" height="15">
+                      <use href="./images/symbol-defs.svg#icon-icon-check"></use>
+                    </svg>
+                  </span>
+                 <p class="rules-text">Oświadczam iż akceptuję 
                   <a class="rules-link" href="Rules">Regulamin</a> i
                  <a class="rules-link" href="Privacy policy"> Politykę Prywatności.</a></p></label></label></div>
+               </label>
+
+               
                
                     <button class="send-button" type="submit"><span class="send-text">Wyślij</span></button>
                 </form>
