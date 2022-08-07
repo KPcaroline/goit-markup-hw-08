@@ -585,7 +585,6 @@ textarea {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 }
 /* hover in form */
-
 .inputwithicons .borders:focus + svg {
 fill: #2196f3;
 }
@@ -611,43 +610,92 @@ textarea:focus {
     border-radius: 4px;
     outline: none;
 }
-
-/* */
-/*
-.checkbox {
-    appearance: none;
+/* check-box */
+.form-position {
+    display: flex;
+ justify-content: center;
+    margin: 20px 0px 30px 0px;
+}
+.form-icons {
+    width: 18px;
+    height: 18px;
+    bottom: 11px;
+    left: 12px;
     position: absolute;
-  }
-  
-  .checkbox-icon {
-    display: inline-block;
-    border: 2px solid #212121;
-    border-radius: 2px;
-  
-  }
-  
-  .check-mark {
-    display: block;
+}
+.form-icons-click-box {
     width: 16px;
     height: 15px;
-  }
-  
-  .checkbox:checked + .checkbox-icon {
-    background-size: contain;
-    background-color: var(--accent-color);
-    border-color: var(--accent-color);
-  }
-  */
-.rules-link {
-    color: #2196f3;
+    position: relative;
+    border: 2px solid var(--font-color-headers);
+    border-radius: 3px;
+    margin-right: 8px;
 }
+.form-icons-click-box:hover,
+.form-icons-click-box:focus-within {
+    border-color: #2196f3;
+}
+.checkbox {
+    position: absolute;
+    z-index: 2;
+    top: 11px;
+    left: -31px;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 16px;
+    
+    
+}
+.checkbox:checked + .form-icons-click {
+    background-color: #2196f3; 
+}
+
+.form-icons-click {
+    z-index: 1;
+    padding: 2px;
+    border-radius: 3px;
+    width: 18px;
+    height: 17px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #fff;
+    position: absolute;
+  
+}
+/* */
+
+/* */
+.form-agreement input {
+    margin-right: 8px;
+    align-items: center;
+}
+.form-agreement-text,
+.form-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  
+}
+.form-link {
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+
+.form-link:hover,
+.form-agreement input:hover,
+.form-link:focus,
+.form-agreement input:focus {
+    cursor: pointer;
+}
+
+/* */
+
 .send-text {
     color: #ffffff;
 }
-.check-and-rules {
-    display: flex;
-    margin-bottom: 25px;
-}
+
 textarea::placeholder {
     font-family: "Roboto";
     font-style: normal;
