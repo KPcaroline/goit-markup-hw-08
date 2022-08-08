@@ -611,9 +611,10 @@ textarea:focus {
     outline: none;
 }
 /* check-box */
+
 .form-position {
     display: flex;
- justify-content: center;
+    justify-content: center;
     margin: 20px 0px 30px 0px;
 }
 .form-icons {
@@ -642,14 +643,16 @@ textarea:focus {
     left: -31px;
     transform: translate(-50%, -50%);
     width: 18px;
-    height: 16px;
-    
-    
+    height: 16px; 
+}
+
+  
+.checkbox:checked {
+    opacity: 0;
 }
 .checkbox:checked + .form-icons-click {
     background-color: #2196f3; 
 }
-
 .form-icons-click {
     z-index: 1;
     padding: 2px;
@@ -661,8 +664,8 @@ textarea:focus {
     transform: translate(-50%, -50%);
     fill: #fff;
     position: absolute;
-  
 }
+
 /* */
 
 /* */
