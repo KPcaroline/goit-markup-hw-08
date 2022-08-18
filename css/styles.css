@@ -47,6 +47,8 @@ header {
 }
 .header-wrapper {
     display: flex;
+}
+.header-wrapper--height {
     height: 80px;
 }
 .web-logo {
@@ -58,9 +60,13 @@ header {
     letter-spacing: 0.03em;
     padding-top: 24px;
     padding-right: 93px;
+   
 }
-.web-logo__blue-text {
+.web-logo--blue-text {
     color: var(--blue-color);
+}
+.web-logo--black-text {
+    color: var(--web-link-color);
 }
 /*START class=navigation */
 .navigation {
@@ -115,7 +121,7 @@ header {
     transition: color 250ms, background 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon__nav-mail {
+.contacts__data {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -320,27 +326,26 @@ address {
     padding-top: 60px;
     font-style: normal;
     text-decoration: none;
-}
-.footer-with-social {
-    display: flex;
-}
-.studio-text {
-    color: var(--white-color);
-    
-}
-.adress-details {
-    color: var(--white-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+.footer-with-social {
+    display: flex;
+}
+.web-logo--white-text {
+    color: var(--white-color);
+}
+.adress-details {
+    color: var(--white-color);
     margin-top: 20px;
 }
-.city-street {
+.adress-details--bottom {
     margin-bottom: 9px;
 }
 
-.tel-details {
+.adress-details__tel-details {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -349,10 +354,10 @@ address {
     letter-spacing: 0.03em;
     color: var(--tel-details-color);
 }
-.tel {
+.adress-details__tel {
     margin-top: 9px;
 }
-.footer-mail {
+.adress-details__mail {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -386,9 +391,7 @@ address {
     transition: color 250ms, background 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.newsletter {
-    
-}
+
 .newsletter__text {
     font-size: 14px;
     color: var(--white-color);
@@ -430,24 +433,14 @@ address {
 
 /*********** portfolio.html ************/
 /* SECTION-1 "portfolio-buttons */
-.active-portfolio::after {
-    content: "";
-    position: absolute;
-    width: 53px;
-    height: 4px;
-    left: 326px;
-    top: 78px;
-    background-color: var(--blue-color);
-    border-radius: 2px;
-}
-.portfolio-buttons {
+.portfolio__list {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
     padding-top: 94px;
     list-style: none;
 }
-.portfolio-button {
+.portfolio__button {
     cursor: pointer;
     font-weight: 500;
     border-radius: 4px;
@@ -462,8 +455,8 @@ address {
     letter-spacing: 0.03em;
     font-size: 16px;
 }
-.portfolio-button:hover,
-.portfolio-button:active {
+.portfolio__button:hover,
+.portfolio__button:active {
     background-color: var(--blue-color);
     color: var(--white-color);
     transition: color 250ms, background 250ms;
@@ -471,7 +464,7 @@ address {
 }
 /* end SECTION-1 "portfolio-buttons */
 /* start PHOTOS portfolio*/
-.portfolio-cards {
+.portfolio {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -481,24 +474,24 @@ address {
     padding-right: 15px;
     padding-bottom: 94px;
 }
-.portfolio-card {
+.portfolio__card {
     position: relative;
     overflow: hidden;
     border: 1px solid #eeeeee;
 }
-.portfolio-card:hover {
+.portfolio__card:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
     transition: box-shadow 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-card:hover .portfolio-overlay {
+.portfolio__card:hover .portfolio__overlay {
     background: rgba(33, 150, 243, 0.9);
     transform: translateY(0);
     transition: transform 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-overlay {
+.portfolio__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -508,13 +501,13 @@ address {
     padding-top: 49px;
     padding-left: 24px;
 }
-.portfolio-overlay-inside {
+.portfolio__overlay--inside {
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
     color: var(--white-color);
 }
-.portfolio-card-title {
+.portfolio__title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -524,7 +517,7 @@ address {
     color: var(--secondary-header-color);
     letter-spacing: 0.06em;
 }
-.portfolio-card-description {
+.portfolio__description {
     font-size: 16px;
     line-height: 1.9;
     margin: 0;
@@ -533,7 +526,7 @@ address {
     color: var(--mediumgrey-color);
     letter-spacing: 0.03em;
 }
-.portfolio-card-f {
+.portfolio__card-f {
     border-bottom: 1px solid var(--border);
     border-left: 1px solid var(--border);
     border-right: 1px solid var(--border);
