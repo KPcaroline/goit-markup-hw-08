@@ -21,34 +21,34 @@
         <header>
             <div class="container">
                 <div class="header-wrapper">
-                    <a class="web-link" href="index.html">
+                    <a class="header-wrapper__web-link" href="index.html">
                         <span class="blue-text">Web</span>Studio</a
                     >
                     <nav>
-                        <ul class="nav-wrapper">
-                          <li><a class="black-text" href="index.html">Agencja</a></li>
-                          <li class="portfolio-position"><a class="black-text underline" href="portfolio.html"
-                              ><span>Portfolio</span></a></li>
-                          <li><a href="#footer" class="black-text" >Kontakt</a></li>
-                    </ul>
+                        <ul class="navigation">
+                            <li>
+                              <a class="navigation__black-text" href="index.html">Agencja</a></li>
+                            <li>
+                             <a class="navigation__black-text underline" href="portfolio.html"><span>Portfolio</span></a></li>
+                            <li>
+                              <a class="navigation__black-text" href="#footer">Kontakt</a></li>
+                        </ul>
                     </nav>
-                    <ul class="mail-tel">
-                        <li class="icon">
-                             <a  class="icon-inside" href="mailto:info@devstudio.com">
-                                 <svg width="16" height="12">
-                                     <use href="./images/icons.svg#icon-envelope-1"></use>
-                                 </svg>
-                             </a> 
-                              <a class="nav-mail" href="mailto:info@devstudio.com"
-                             >info@devstudio.com</a>
-                         </li>
+
+                    <ul class="contacts">
+                      <li class="icon">
+                          <a  class="icon icon__inside" href="mailto:info@devstudio.com">
+                            <svg width="16" height="12">
+                                <use href="./images/icons.svg#icon-envelope-1"></use>
+                            </svg></a> 
+                              <a class="icon__nav-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                     </li>
                          <li class="icon">
-                            <a class="icon-inside" href="tel:+48111111111">
-                             <svg width="10" height="16">
-                                 <use href="./images/icons.svg#icon-smartphone-1"></use> 
-                             </svg></a>
-                             <a class="nav-mail" href="tel:+48111111111"
-                             >+48&nbsp;111&nbsp;111&nbsp;111</a>
+                            <a class="icon__inside" href="tel:+48111111111">
+                              <svg width="10" height="16">
+                                <use href="./images/icons.svg#icon-smartphone-1"></use> 
+                              </svg></a>
+                            <a class="icon__nav-mail" href="tel:+48111111111">+48&nbsp;111&nbsp;111&nbsp;111</a>
                          </li>
                      </ul>
                 </div>
@@ -291,12 +291,12 @@
 
   
 
-        <footer id="footer">
+        <footer>
             <div class="container">
                 <div class="footer-with-social">
                   <address>
-                    <a class="web-link" href="index.html">
-                    <span class="blue-text">Web</span><span class="studio-text">Studio</span></a>
+                    <a class="web-logo" href="index.html">
+                    <span class="web-logo__blue-text">Web</span><span class="studio-text">Studio</span></a>
                       <div class="adress-details">
                         <div class="city-street">
                         m. Warszawa, Aleje Jerozolimskie 21
@@ -307,30 +307,30 @@
                             </div>
                     </div>
                  </address>
-                <div>
-                    <p class="join-to-us">DOŁĄCZ DO NAS</p>
-                    <ul class="social-icon-footer">
-                        <a href="..."><li class="social-icon">
+                <div class="join-to-us">
+                    <p class="join-to-us__text">DOŁĄCZ DO NAS</p>
+                    <ul class="join-to-us__list">
+                        <a href="..."><li class="join-to-us__link">
                             <svg width="44" height="44">
                             <use href="./images/icons.svg#icon-Ellipse-9"></use></svg></a></li>
-                        <a  href="..."><li class="social-icon">
+                        <a  href="..."><li class="join-to-us__link">
                             <svg width="44" height="44">
                             <use href="./images/icons.svg#icon-Ellipse-10"></use></svg></a></li>
-                        <a  href="..."><li class="social-icon">
+                        <a  href="..."><li class="join-to-us__link">
                             <svg width="44" height="44">
                             <use href="./images/icons.svg#icon-Ellipse-11"></use></svg></a></li>
-                        <a  href="..."><li class="social-icon">
+                        <a  href="..."><li class="join-to-us__link">
                             <svg width="44" height="44">
                             <use href="./images/icons.svg#icon-Ellipse-12"></use></svg></a></li>
                      </ul>
                 </div>
-                <div>
-                  <p class="sign-in-text"> ZAPISZ SIĘ DO NEWSLETTERA </p>
+                <div class="newsletter">
+                  <p class="newsletter__text"> ZAPISZ SIĘ DO NEWSLETTERA </p>
                   <form name="signup_form" autocomplete="on" novalidate>
                     <label>
-                      <input class="email" type="email" name="email" placeholder=" E-mail"/>
-                      <button class="btn-footer" type="submit"><p class="sign-in-text-two">Zapisz się</p>
-                        <svg class="icon-send" width="24" height="24">
+                      <input class="newsletter__email" type="email" name="email" placeholder=" E-mail"/>
+                      <button class="btn" type="submit"><p class="btn__text">Zapisz się</p>
+                        <svg class="btn__icon" width="24" height="24">
                           <use href="./images/icons.svg#icon-icon-send"></use>
                        </svg>
                        </button>
