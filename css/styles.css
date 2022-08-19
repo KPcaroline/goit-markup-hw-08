@@ -39,12 +39,12 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
-
-/* index.html */
-/* HEADER */
 header {
     border: 1px solid var(--border-color);
 }
+
+/* index.html */
+/* HEADER */
 .header-wrapper {
     display: flex;
 }
@@ -54,13 +54,11 @@ header {
 .web-logo {
     font-size: 26px;
     text-decoration: none;
-    color: var(--web-link-color);
     line-height: 1.38;
     font-weight: 700;
     letter-spacing: 0.03em;
     padding-top: 24px;
     padding-right: 93px;
-   
 }
 .web-logo--blue-text {
     color: var(--blue-color);
@@ -106,7 +104,8 @@ header {
     padding-top: 32px;
     padding-left: 290px;
     list-style: none;
-    display: flex; color: var(--nav-mail-color);
+    display: flex; 
+    color: var(--nav-mail-color);
     fill: var(--nav-mail-color);
 }
 .contacts__list {
@@ -161,10 +160,7 @@ header {
     margin-left: 500px;
 }
 .index-button__text {
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;    
     color: var(--white-color);
@@ -174,16 +170,14 @@ header {
 /* SECTION-2 "lorem ipsum" */
 .list-wrapper {
     display: flex;
-}
-.li-wrapper__element {
+    justify-content: space-around;
     list-style-type: none;
-    padding-right: 30px;
     padding-top: 94px;
 }
 h4 {
     margin-top: 30px;
 }
-p {
+.lorem-text {
     font-size: 14px;
     line-height: 1.7;
     color: var(--nav-mail-color);
@@ -208,11 +202,10 @@ p {
     display: flex;
     list-style: none;
     position: relative;
-    width: 370px;
     height: 294px;
 }
 .pictures__what-we-do {
-    padding-right: 30px;
+  flex-grow: 1;
 }
 .pictures__text {
     position: absolute;
