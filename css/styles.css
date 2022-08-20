@@ -234,7 +234,7 @@ h4 {
 }
 .our-team {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
 }
 
@@ -404,7 +404,8 @@ address {
     background-color: #2f303a;
     margin-left: 77px;
     padding-left: 16px;
-    margin-right: 8px;
+    margin-right: 12px;
+    
 }
 .btn__icon {
     position: relative;
@@ -419,6 +420,7 @@ address {
     line-height: 30px;
     letter-spacing: 0.06em;
     color: #ffffff;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -590,6 +592,9 @@ textarea:focus {
 .label__text {
     padding-left: 40px;
     color: #757575;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 12px;
 }
 
 /* check-box */
@@ -732,7 +737,9 @@ textarea::placeholder {
     border-style: none;
     cursor: pointer;
 }
-
+.btn__submit {
+    position: absolute;
+}
 .backdrop {
     position: fixed;
     top: 0;
