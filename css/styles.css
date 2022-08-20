@@ -85,15 +85,13 @@ header {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation__black-text--underline {
-    padding-left: 1px;
     color: var(--blue-color);
 }
 .navigation__black-text--underline::after {
     content: "";
     position: absolute;
-    width: 53px;
+    width: 57px;
     height: 4px;
-    left: 100;
     top: 78px;
     background-color: var(--blue-color);
     border-radius: 2px;
@@ -153,13 +151,22 @@ header {
     padding-bottom: 30px;
     line-height: 1.36;
 }
-.index-button {
+.btn {
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    border-style: none;
+    cursor: pointer;
+}
+.btn__index {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-bottom: 200px;
     margin-left: 500px;
 }
-.index-button__text {
+.btn__text {
     font-weight: 700;
     line-height: 1.875;
     letter-spacing: 0.06em;    
@@ -314,6 +321,7 @@ h4 {
 footer {
     background-color: var(--container-color);
     height: 252px;
+
 }
 address {
     padding-top: 60px;
@@ -334,7 +342,7 @@ address {
     color: var(--white-color);
     margin-top: 20px;
 }
-.adress-details--bottom {
+.adress-details--margin {
     margin-bottom: 9px;
 }
 
@@ -391,7 +399,9 @@ address {
     line-height: 1.14;
     letter-spacing: 0.03em;
     font-weight: 700;
-    padding-top: 72px;
+}
+.newsletter__text--padding {
+      padding-top: 72px;
     padding-left: 77px;
     padding-bottom: 20px;
 }
@@ -402,28 +412,26 @@ address {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: #2f303a;
+}
+.newsletter__email--margin {
     margin-left: 77px;
     padding-left: 16px;
-    margin-right: 12px;
-    
+    margin-right: 12px; 
+}
+.btn__submit {
+    position: absolute;
 }
 .btn__icon {
     position: relative;
     left: 60px;
     top: -37px;
 }
-.btn__text {
+.btn__text--position {
     position: relative;
-    left: -14px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.06em;
-    color: #ffffff;
+    left: -14px; 
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 /* end "FOOTER" */
 
 /*********** portfolio.html ************/
@@ -727,16 +735,6 @@ textarea::placeholder {
     color: rgba(117, 117, 117, 0.5);
 }
 
-
-.btn {
-    background: #2196f3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    width: 200px;
-    height: 50px;
-    border-style: none;
-    cursor: pointer;
-}
 .btn__submit {
     position: absolute;
 }
