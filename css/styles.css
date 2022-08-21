@@ -84,7 +84,8 @@ header {
     color: var(--dark-color);
     margin-right: 46px;
 }
-.navigation__black-text:hover {
+.navigation__black-text:hover
+.navigation__black-text:focus {
     color: var(--blue-color);
     transition: color 250ms, background 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -215,6 +216,7 @@ header {
 }
 .pictures__what-we-do {
   flex-grow: 1;
+  margin-left: 16px;
 }
 .pictures__text {
     position: absolute;
@@ -303,6 +305,7 @@ header {
     display: flex;
     list-style: none;
     padding-bottom: 94px;
+    margin-left: 16px;
 }
 .clients__border {
     border: 1px solid var(--icon-border);
