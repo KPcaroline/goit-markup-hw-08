@@ -1,0 +1,32 @@
+.contacts {
+    padding-top: 32px;
+    padding-left: 290px;
+    list-style: none;
+    display: flex;
+    color: var(--nav-mail-color);
+    fill: var(--nav-mail-color);
+
+    &__list {
+        display: flex;
+    }
+    &__icon {
+        padding-right: 10px;
+    }
+    &__list:hover > a {
+        color: var(--blue-color);
+        fill: var(--blue-color);
+        transition: color 250ms, background 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__data {
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--nav-mail-color);
+        margin-right: 50px;
+    }
+}

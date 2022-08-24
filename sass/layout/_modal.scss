@@ -1,0 +1,114 @@
+.inputwithicons .inputwithicons__borders:focus + svg {
+    fill: var(--blue-color);
+}
+.form__text {
+    text-align: center;
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-color);
+}
+.label__text {
+    padding-left: 40px;
+    color: var(--nav-mail-color);
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+.form-position {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 30px 0px;
+}
+.form-icons {
+    width: 18px;
+    height: 18px;
+    bottom: 11px;
+    left: 12px;
+    position: absolute;
+
+    &-click-box {
+        width: 16px;
+        height: 15px;
+        position: relative;
+        border: 2px solid var(--font-color-headers);
+        border-radius: 3px;
+        margin-right: 8px;
+    }
+    &-click-box:hover,
+    &-click-box:focus {
+        border-color: var(--blue-color);
+    }
+    &-click {
+        z-index: 1;
+        padding: 2px;
+        border-radius: 3px;
+        width: 18px;
+        height: 17px;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        fill: var(--white-color);
+        position: absolute;
+    }
+}
+
+.checkbox:checked + .form-icons-click {
+    background-color: var(--blue-color);
+}
+.checkbox {
+    position: absolute;
+    z-index: 2;
+    top: 11px;
+    left: -31px;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 16px;
+
+    &:checked {
+        opacity: 0;
+    }
+}
+
+.form-agreement input {
+    margin-right: 8px;
+    align-items: center;
+}
+.form-agreement-text,
+.form-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.form-link {
+    color: var(--blue-color);
+    text-decoration: underline;
+}
+.form-link:hover,
+.form-agreement input:hover,
+.form-link:focus,
+.form-agreement input:focus {
+    cursor: pointer;
+}
+
+.send-text {
+    color: var(--white-color);
+}
+.positionsvg {
+    position: relative;
+    left: 100;
+}
+
+.inputwithicons {
+    position: relative;
+
+    & svg {
+        position: absolute;
+        left: 55px;
+        top: 12px;
+    }
+}

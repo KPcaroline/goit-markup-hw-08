@@ -1,0 +1,21 @@
+.web-logo {
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.38;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding-top: 24px;
+    padding-right: 93px;
+    
+    &--blue-text {
+    color: var(--blue-color);
+}
+    &--black-text {
+    color: var(--web-link-color);
+    
+    &--white-text {
+    color: var(--white-color);
+}
+}
+}
+

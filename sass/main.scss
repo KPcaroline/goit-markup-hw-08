@@ -1,1 +1,24 @@
+@import "./utils/hidden";
+
 @import "./base/common";
+@import "./base/container";
+
+@import "./components/buttons.scss";
+@import "./components/web-logo";
+@import "./components/backdrop";
+@import "./components/form";
+@import "./components/modal";
+
+@import "./layout/clients";
+@import "./layout/contacts";
+@import "./layout/footer-join-to-us";
+@import "./layout/footer-logo-adress";
+@import "./layout/footer-newsletter";
+@import "./layout/header";
+@import "./layout/lorem-ipsum";
+@import "./layout/modal";
+@import "./layout/navigation";
+@import "./layout/our-team";
+@import "./layout/portfolio";
+@import "./layout/section-one";
+@import "./layout/what-we-do";

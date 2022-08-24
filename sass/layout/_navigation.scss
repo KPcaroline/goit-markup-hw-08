@@ -1,0 +1,29 @@
+.navigation {
+    padding-top: 32px;
+    list-style: none;
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+}
+.navigation__black-text {
+    text-decoration: none;
+    color: var(--dark-color);
+    margin-right: 46px;
+    &:hover &:focus {
+        color: var(--blue-color);
+        transition: color 250ms, background 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    &--underline {
+        color: var(--blue-color);
+    }
+    &--underline::after {
+        content: "";
+        position: absolute;
+        width: 57px;
+        height: 4px;
+        top: 78px;
+        background-color: var(--blue-color);
+        border-radius: 2px;
+    }
+}

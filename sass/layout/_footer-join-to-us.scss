@@ -1,0 +1,26 @@
+.join-to-us {
+    padding-left: 70px;
+    &__text {
+        color: var(--white-color);
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        padding-top: 72px;
+        font-weight: 700;
+    }
+    &__list {
+        display: flex;
+        list-style: none;
+    }
+
+    &__link {
+        padding-right: 10px;
+        fill: var(--icon-color);
+        padding-top: 20px;
+    }
+
+    &__link:hover {
+        fill: var(--blue-color);
+        transition: color 250ms, background 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

@@ -1,0 +1,34 @@
+.h2-text {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.pictures {
+    display: flex;
+    list-style: none;
+    position: relative;
+    height: 294px;
+    &__what-we-do {
+        flex-grow: 1;
+        margin-left: 16px;
+    }
+    &__text {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 370px;
+        height: 70px;
+        top: 224px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: var(--white-color);
+        background: var(--grey-shadow-five);
+    }
+}

@@ -1,0 +1,34 @@
+.footer-with-social {
+    display: flex;
+}
+
+.adress-details {
+    color: var(--white-color);
+    margin-top: 20px;
+
+    &--margin {
+        margin-bottom: 9px;
+    }
+}
+
+.adress-details__tel {
+    margin-top: 9px;
+    
+    &-details {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--tel-details-color);
+}
+}
+.adress-details__mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--tel-details-color);
+}
