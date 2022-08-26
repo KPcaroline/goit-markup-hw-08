@@ -13,11 +13,10 @@
         }
         &--black-text {
             color: var(--web-link-color);
-
+        }
             &--white-text {
                 color: var(--white-color);
             }
-        }
     }
 }
 @media screen and (min-width: 768px) {
@@ -36,11 +35,10 @@
         }
         &--black-text {
             color: var(--web-link-color);
-
-            &--white-text {
+        }   
+        &--white-text {
                 color: var(--white-color);
             }
-        }
     }
 }
 
@@ -59,12 +57,11 @@
             color: var(--blue-color);
         }
         &--black-text {
-            color: var(--web-link-color);
-
-            &--white-text {
+            color: var(--web-link-color); 
+        } 
+        &--white-text {
                 color: var(--white-color);
             }
-        }
     }
 }
 

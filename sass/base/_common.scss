@@ -20,7 +20,6 @@ header {
 }
 footer {
     background-color: var(--container-color);
-    height: 252px;
 }
 address {
     padding-top: 60px;
@@ -31,6 +30,36 @@ address {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+
+@media screen and (min-width: 320px) {
+    textarea,
+    input {
+        border: 1px solid var(--grey-shadow-ten);
+        border-radius: 4px;
+        resize: none; 
+        margin-left: 40px;
+        width: 370px;
+        padding-left: 42px; 
+        height: 40px;
+    }
+    
+    textarea {
+        height: 120px;
+        padding-left: 16px;
+        padding-top: 12px;
+        transition: transform 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    textarea:focus {
+        border: 1px solid var(--blue-color);
+        border-radius: 4px;
+        outline: none;
+    }
+}
+
+
+/*
+
 textarea,
 input {
     border: 1px solid var(--grey-shadow-ten);
@@ -54,3 +83,5 @@ textarea:focus {
     border-radius: 4px;
     outline: none;
 }
+
+*/

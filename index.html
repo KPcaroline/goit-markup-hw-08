@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
+
         <title>Studio</title>
         <link
             rel="stylesheet"
@@ -19,123 +19,214 @@
         <link href="css/main.min.css" rel="stylesheet" />
     </head>
     <body>
-        <header class="header">
+        <header class="page-header">
+            <div class="contain">
+                <button
+                    class="menu-toggle js-open-menu"
+                    aria-expanded="false"
+                    aria-controls="mobile-menu"
+                >
+                    <svg
+                        width="24"
+                        height="24"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"
+                        ></path>
+                    </svg>
+                </button>
+
+                <ul class="menu">
+                    <li><a href="" class="link">About</a></li>
+                    <li><a href="" class="link">Products</a></li>
+                    <li><a href="" class="link">Contacts</a></li>
+                    <li><a href="" class="link">Career</a></li>
+                </ul>
+            </div>
             <div class="container">
                 <div class="header-wrapper header-wrapper--height">
                     <a class="web-logo web-logo--black-text" href="index.html">
-                        <span class="web-logo--blue-text">Web</span><span class="web-logo--black-text">Studio</span></a>
+                        <span class="web-logo--blue-text">Web</span
+                        ><span class="web-logo--black-text">Studio</span></a
+                    >
 
                     <nav>
                         <ul class="navigation">
                             <li>
-                                <a class="navigation__black-text navigation__black-text--underline" href="index.html">Agencja</a></li>
+                                <a
+                                    class="navigation__black-text navigation__black-text--underline"
+                                    href="index.html"
+                                    >Agencja</a
+                                >
+                            </li>
                             <li>
-                                <a class="navigation__black-text" href="portfolio.html"><span>Portfolio</span></a></li>
+                                <a
+                                    class="navigation__black-text"
+                                    href="portfolio.html"
+                                    ><span>Portfolio</span></a
+                                >
+                            </li>
                             <li>
-                                <a class="navigation__black-text" href="#footer">Kontakt</a></li>
+                                <a class="navigation__black-text" href="#footer"
+                                    >Kontakt</a
+                                >
+                            </li>
                         </ul>
                     </nav>
 
-                        <ul class="contacts">
-                           <li class="contacts__list">
-                                <a  class="contacts__icon" href="mailto:info@devstudio.com">
-                                   <svg width="16" height="12"> 
-                                        <use href="./images/icons.svg#icon-envelope-1"></use>
-                                    </svg>
-                                </a> 
-                                 <a class="contacts__data" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                            </li>
-                            <li class="contacts__list">
-                               <a class="contacts__icon" href="tel:+48111111111">
+                    <ul class="contacts">
+                        <li class="contacts__list">
+                            <a
+                                class="contacts__icon"
+                                href="mailto:info@devstudio.com"
+                            >
+                                <svg width="16" height="12">
+                                    <use
+                                        href="./images/icons.svg#icon-envelope-1"
+                                    ></use>
+                                </svg>
+                            </a>
+                            <a
+                                class="contacts__data"
+                                href="mailto:info@devstudio.com"
+                                >info@devstudio.com</a
+                            >
+                        </li>
+                        <li class="contacts__list">
+                            <a class="contacts__icon" href="tel:+48111111111">
                                 <svg width="10" height="16">
-                                    <use href="./images/icons.svg#icon-smartphone-1"></use> 
-                                </svg></a>
-                                <a class="contacts__data" href="tel:+48111111111">+48&nbsp;111&nbsp;111&nbsp;111</a>
-                            </li>
-                        </ul>
+                                    <use
+                                        href="./images/icons.svg#icon-smartphone-1"
+                                    ></use></svg
+                            ></a>
+                            <a class="contacts__data" href="tel:+48111111111"
+                                >+48&nbsp;111&nbsp;111&nbsp;111</a
+                            >
+                        </li>
+                    </ul>
                 </div>
-            </div> 
+            </div>
         </header>
-        
-<section class="section-one">
-    <div class="container">
-            <h1 class="section-one__text">
-                EFEKTYWNE ROZWIĄZANIA<br />
-                DLA WASZEGO BIZNESU
-            </h1>
+
+        <section class="section-one">
+            <div class="container">
+                <h1 class="section-one__text">
+                    EFEKTYWNE ROZWIĄZANIA<br />
+                    DLA WASZEGO BIZNESU
+                </h1>
                 <button class="btn btn__index" type="button" data-modal-open>
                     <span class="btn__text">Zamów usługę</span>
                 </button>
-                
-                    <div class="backdrop is-hidden" data-modal>
-                     <section class="modal">
+
+                <div class="backdrop is-hidden" data-modal>
+                    <section class="modal">
                         <button class="close-btn" data-modal-close>X</button>
-                            <form class="form">
-                                <p class="form__text">Zostaw swoje dane w formularzu poniżej</p>
-                                    <label class="label">
-                                        <p class="label__text">Imie</p>
-                                            <div class="inputwithicons">
-                                                <input class="inputwithicons__borders" type="text" username="name" required/>
-                                                    <svg width="19" height="19"> <use href="./images/icons.svg#icon-person-black-18dp-1" ></use></svg>
-                                            </div>
-                                    </label>
+                        <form class="form">
+                            <p class="form__text">
+                                Zostaw swoje dane w formularzu poniżej
+                            </p>
+                            <label class="label">
+                                <p class="label__text">Imie</p>
+                                <div class="inputwithicons">
+                                    <input
+                                        class="inputwithicons__borders"
+                                        type="text"
+                                        username="name"
+                                        required
+                                    />
+                                    <svg width="19" height="19">
+                                        <use
+                                            href="./images/icons.svg#icon-person-black-18dp-1"
+                                        ></use>
+                                    </svg>
+                                </div>
+                            </label>
 
-                                    <label> 
-                                         <p class="label__text">Telefon</p>
-                                            <div class="inputwithicons">
-                                                <input class="inputwithicons__borders" type="tel" username="telephone" required/>
-                                                    <svg width="19" height="19"> <use href="./images/icons.svg#icon-phone-black-18dp-1"></use></svg>
-                                            </div>
-                                    </label>
-                
-                                    <label>
-                                        <p class="label__text">Email</p>
-                                            <div class="inputwithicons">
-                                                <input class="inputwithicons__borders" type="email" name="email" required/>
-                                                    <svg width="19" height="19"> <use href="./images/icons.svg#icon-email-black-18dp-1"></use></svg>
-                                            </div>
-                                    </label>
-                                    <label>
-                                        <p class="label__text">Komentarz</p>
-                                            <textarea name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
-                                    </label>
+                            <label>
+                                <p class="label__text">Telefon</p>
+                                <div class="inputwithicons">
+                                    <input
+                                        class="inputwithicons__borders"
+                                        type="tel"
+                                        username="telephone"
+                                        required
+                                    />
+                                    <svg width="19" height="19">
+                                        <use
+                                            href="./images/icons.svg#icon-phone-black-18dp-1"
+                                        ></use>
+                                    </svg>
+                                </div>
+                            </label>
 
-            <div class="form-position">                 
-                <div class="form-icons-click-box">
-                    <input
-                        class="checkbox"
-                        type="checkbox"
-                        name="agreements"
-                        value="agreement"
-                        id="agreements"
-                    />
-                     <svg class="form-icons-click">
-                        <use
-                            href="images/symbol-defs.svg#icon-icon-check"
-                        ></use>
-                     </svg>
+                            <label>
+                                <p class="label__text">Email</p>
+                                <div class="inputwithicons">
+                                    <input
+                                        class="inputwithicons__borders"
+                                        type="email"
+                                        name="email"
+                                        required
+                                    />
+                                    <svg width="19" height="19">
+                                        <use
+                                            href="./images/icons.svg#icon-email-black-18dp-1"
+                                        ></use>
+                                    </svg>
+                                </div>
+                            </label>
+                            <label>
+                                <p class="label__text">Komentarz</p>
+                                <textarea
+                                    name="feedback"
+                                    rows="5"
+                                    placeholder="Wprowadź tekst"
+                                ></textarea>
+                            </label>
+
+                            <div class="form-position">
+                                <div class="form-icons-click-box">
+                                    <input
+                                        class="checkbox"
+                                        type="checkbox"
+                                        name="agreements"
+                                        value="agreement"
+                                        id="agreements"
+                                    />
+                                    <svg class="form-icons-click">
+                                        <use
+                                            href="images/symbol-defs.svg#icon-icon-check"
+                                        ></use>
+                                    </svg>
+                                </div>
+
+                                <label for="agreements">
+                                    <span class="form-agreement-text">
+                                        Oświadczam iż akceptuję
+                                        <a href="" class="form-link">
+                                            Regulamin </a
+                                        >i
+                                        <a href="" class="form-link">
+                                            Politykę Prywatności.</a
+                                        >
+                                    </span>
+                                </label>
+                            </div>
+
+                            <button class="send-button" type="submit">
+                                <span class="send-text">Wyślij</span>
+                            </button>
+                        </form>
+                    </section>
                 </div>
-                
-                <label for="agreements">
-                    <span class="form-agreement-text">
-                        Oświadczam iż akceptuję
-                        <a href="" class="form-link">
-                            Regulamin </a
-                        >i
-                        <a href="" class="form-link">
-                            Politykę Prywatności.</a
-                        >
-                    </span>
-                </label>
             </div>
-               
-                <button class="send-button" type="submit"><span class="send-text">Wyślij</span></button>
-                    </form>
-                        </section>
-                            </div>  
-                                 </div>
-                                    </section>
-<!---
+        </section>
+        
         <section>
         <div class="container">
             <ul class="list-wrapper">
@@ -145,8 +236,8 @@
                     </svg>
                         <h4 class="list-wrapper__title">LOREM IPSUM</h4>
                         <p class="list-wrapper__text">
-                            Lorem ipsum dolor sit amet, consectetur <br />
-                            adipiscing elit. Nam vel arcu sem. Sed <br />
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Nam vel arcu sem. Sed 
                             non sodales dui. Interdum et malesuada
                         </p>
                 </li>
@@ -156,8 +247,8 @@
                     </svg>
                         <h4 class="list-wrapper__title" >LOREM IPSUM</h4>
                         <p class="list-wrapper__text">
-                            Lorem ipsum dolor sit amet, consectetur <br />
-                            adipiscing elit. Nam vel arcu sem. Sed <br />
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Nam vel arcu sem. Sed 
                             non sodales dui. Interdum et malesuada
                         </p>  
                 </li>
@@ -167,8 +258,8 @@
                     </svg>
                         <h4 class="list-wrapper__title">LOREM IPSUM</h4>
                         <p class="list-wrapper__text">
-                            Lorem ipsum dolor sit amet, consectetur <br />
-                            adipiscing elit. Nam vel arcu sem. Sed <br />
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Nam vel arcu sem. Sed 
                             non sodales dui. Interdum et malesuada
                         </p>
                 </li>
@@ -178,8 +269,8 @@
                     </svg>
                         <h4 class="list-wrapper__title">LOREM IPSUM</h4>
                         <p class="list-wrapper__text">
-                            Lorem ipsum dolor sit amet, consectetur <br />
-                            adipiscing elit. Nam vel arcu sem. Sed <br />
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Nam vel arcu sem. Sed 
                             non sodales dui. Interdum et malesuada
                         </p>
                 </li>
@@ -230,7 +321,7 @@
 
         <section class="our-team-background">
             <div class="container">
-                <h2 class="h2-text h2-text--modification">Nasz zespół</h2>
+                <h2 class="team-text team-text--modification">Nasz zespół</h2>
                 <ul class="our-team">
                     <li><figure class="our-team__background">
                             <img
@@ -363,9 +454,9 @@
 
         <section>
             <div class="container">
-            <h2 class="h2-text">Nasi klienci</h2>
+            <h2 class="clients-text">Nasi klienci</h2>
             <ul class="clients__icons">
-                <li class="clients__border">
+               <div class="clients__mobile"> <li class="clients__border">
                 <a href="..."><svg width="170" height="92">
                     <use href="./images/icons.svg#icon-Client-1-2"></use>
                 </svg></a> 
@@ -374,8 +465,8 @@
                     <a href="..."><svg width="170" height="92">
                         <use href="./images/icons.svg#icon-Client-2-2"></use>
                     </svg></a>
-                </li>
-                <li class="clients__border">
+                </li></div>
+                <div class="clients__mobile"><li class="clients__border">
                     <a href="..."><svg width="170" height="92">
                          <use href="./images/icons.svg#icon-Client-3-2"></use>
                 </svg></a>
@@ -384,8 +475,8 @@
                     <a href="..."><svg width="170" height="92">
                         <use href="./images/icons.svg#icon-Client-4-2"></use>
                    </svg></a>
-                </li>
-                <li class="clients__border">
+                </li></div>
+                <div class="clients__mobile"><li class="clients__border">
                     <a href="..."><svg width="170" height="90">
                         <use href="./images/icons.svg#icon-Client-5-2"></use>
                        </svg></a>
@@ -394,7 +485,7 @@
                     <a href="..."><svg width="170" height="92">
                         <use href="./images/icons.svg#icon-Client-6-2"></use>
                     </svg></a>
-                </li>
+                </li></div>
             </ul>
         </div>
         </section>
@@ -403,7 +494,7 @@
             <div class="container">
                 <div class="footer-with-social">
                     <address>
-                        <a class="web-logo" href="index.html">
+                        <a class="web-logo web-logo--footer" href="index.html">
                             <span class="web-logo--blue-text">Web</span><span class="web-logo--white-text">Studio</span></a>
                             <div class="adress-details">
                                 <div class="adress-details--margin">
@@ -450,7 +541,38 @@
                   </div>
             </div>
         </footer>
-    <script src="./js/modal.js"></script>
-    -->
+
+        <div class="menu-contain js-menu-contain" id="mobile-menu">
+            <button class="menu-toggle js-close-menu">
+                <svg
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                >
+                    <path
+                        fill-rule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                    ></path>
+                </svg>
+            </button>
+
+            <ul class="mobile-menu">
+                <li><a href="" class="link">About</a></li>
+                <li><a href="" class="link">Products</a></li>
+                <li><a href="" class="link">Contacts</a></li>
+                <li><a href="" class="link">Career</a></li>
+            </ul>
+        </div>
+        <script
+            defer
+            src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+            integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+            crossorigin="anonymous"
+        ></script>
+        <script defer src="./js2/mobile-menu.js"></script>
+        <script src="./js/modal.js"></script>
     </body>
 </html>

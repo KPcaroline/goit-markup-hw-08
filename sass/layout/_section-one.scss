@@ -19,21 +19,7 @@
             line-height: 1.6;
             letter-spacing: 0.06em;
             text-transform: uppercase;
-        }
-        .btn {
-            background: var(--blue-color);
-            box-shadow: 0px 4px 4px var(--grey-shadow-six);
-            border-radius: 4px;
-            width: 200px;
-            height: 50px;
-            border-style: none;
-            cursor: pointer;
-            margin-left: 140px;
-            margin-bottom: 118px;
-
-            &__index {
-                text-align: center;
-            }
+        
         }
     }
 }
@@ -51,6 +37,10 @@
         background-position: 50%;
     }
 }
+
+
+
+
 
 @media screen and (min-width: 768px) {
     .section-one {
@@ -74,24 +64,9 @@
             letter-spacing: 0.06em;
             text-transform: uppercase;
         }
-
-        .btn {
-            background: var(--blue-color);
-            box-shadow: 0px 4px 4px var(--grey-shadow-six);
-            border-radius: 4px;
-            width: 200px;
-            height: 50px;
-            border-style: none;
-            cursor: pointer;
-            margin-left: 284px;
-            margin-bottom: 118px;
-
-            &__index {
-                text-align: center;
-            }
         }
     }
-}
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
     screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -133,24 +108,6 @@
             letter-spacing: 0.06em;
             text-transform: uppercase
          }
-
-            .btn {
-                background: var(--blue-color);
-                box-shadow: 0px 4px 4px var(--grey-shadow-six);
-                border-radius: 4px;
-                width: 200px;
-                height: 50px;
-                border-style: none;
-                cursor: pointer;
-                margin-left: 485px;
-                margin-bottom: 200px;
-
-                &__index {
-                   text-align: center;
-                }
-    
-    
-            }
     }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
@@ -168,12 +125,6 @@
         }
     }
 
-.btn__text {
-    font-weight: 700;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
-    color: var(--white-color);
-}
 
 /*
 .section-one {
@@ -196,10 +147,4 @@
     }
 }
 
-.btn__text {
-    font-weight: 700;
-    line-height: 1.875;
-    letter-spacing: 0.06em;
-    color: var(--white-color);
-}
 */

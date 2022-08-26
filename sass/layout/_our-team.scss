@@ -1,11 +1,97 @@
+@media screen and (min-width: 320px) {
+    .our-team-background {
+        background-color: var(--section-color);
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .team-text {
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.17;
+    }
+    .team-text--modification {
+        margin-bottom: 30px;
+    }
+    .our-team {
+        list-style: none;
+        &__background {
+            background-color: var(--white-color);
+            margin-bottom: 30px;
+            box-shadow: 0px 1px 3px var(--grey-shadow-one),
+                0px 1px 1px var(--grey-shadow-seven),
+                0px 2px 1px var(--grey-shadow-eight);
+            border-radius: 0px 0px 4px 4px;
+        }
+        &__name-surname {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.18;
+            letter-spacing: 0.03em;
+            color: var(--dark-color);
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+        &__job-title {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.18;
+            letter-spacing: 0.03em;
+            color: var(--nav-mail-color);
+            padding-bottom: 16px;
+            text-align: center;
+        }
+        &__figcaption {
+            display: flex;
+            list-style: none;
+            padding-bottom: 24px;
+            justify-content: center;
+        }
+        &__link a {
+            display: flex;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        &__link a:hover {
+            background: var(--blue-color);
+            transition: color 250ms, background 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        &__link a:hover svg {
+            fill: var(--white-color);
+            transition: color 250ms, background 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        &__link a svg {
+            fill: var(--icon-border);
+        }
+    }
+}
+
+/*
+
+
 .our-team-background {
     background-color: var(--section-color);
     margin-top: 94px;
 }
-.h2-text--modification {
-    padding-top: 94px;
-    margin-bottom: 50px;
-}
+ .team-text {
+        font-size: 28px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.16;
+        margin-top: 94px;
+        margin-bottom: 50px;
+    }
+    .team-text--modification {
+        padding-top: 94px;
+        margin-bottom: 30px;
+    }
 .our-team {
     display: flex;
     justify-content: space-around;
@@ -61,3 +147,4 @@
         fill: var(--icon-border);
     }
 }
+*/

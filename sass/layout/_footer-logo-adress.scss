@@ -1,7 +1,46 @@
-.footer-with-social {
-    display: flex;
+@media screen and (min-width: 320px) {
+.web-logo--footer {
+   padding-left: 163px;
+}
+.adress-details {
+    color: var(--white-color);
+    margin-top: 20px;
+    text-align: center;
+
+    &--margin {
+        margin-bottom: 8px;
+    }
+}
+.adress-details__tel {
+    text-align: center;
+    margin-top: 8px;
+    &-details {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--tel-details-color);
+}
+}
+.adress-details__mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--tel-details-color);
+}
 }
 
+/*
+.footer-with-social {
+  display: flex;
+}
+.web-logo--footer {
+   padding-left: 163px;
+}
 .adress-details {
     color: var(--white-color);
     margin-top: 20px;
@@ -32,3 +71,5 @@
     letter-spacing: 0.03em;
     color: var(--tel-details-color);
 }
+
+*/
