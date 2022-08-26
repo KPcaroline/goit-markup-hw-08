@@ -1,3 +1,74 @@
+@media screen and (min-width: 320px) {
+    .web-logo {
+        font-size: 24px;
+        text-decoration: none;
+        line-height: 1.38;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        &--blue-text {
+            color: var(--blue-color);
+        }
+        &--black-text {
+            color: var(--web-link-color);
+
+            &--white-text {
+                color: var(--white-color);
+            }
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .web-logo {
+        font-family: raleway;
+        font-size: 24px;
+        text-decoration: none;
+        line-height: 1.38;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        padding-top: 26px;
+        padding-bottom: 26px;
+
+        &--blue-text {
+            color: var(--blue-color);
+        }
+        &--black-text {
+            color: var(--web-link-color);
+
+            &--white-text {
+                color: var(--white-color);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .web-logo {
+        font-size: 26px;
+        font-family: Raleway;
+        text-decoration: none;
+        line-height: 1.38;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        padding-top: 24px;
+        padding-bottom: 25px;
+
+        &--blue-text {
+            color: var(--blue-color);
+        }
+        &--black-text {
+            color: var(--web-link-color);
+
+            &--white-text {
+                color: var(--white-color);
+            }
+        }
+    }
+}
+
+/*
 .web-logo {
     font-size: 26px;
     text-decoration: none;
@@ -18,4 +89,4 @@
 }
 }
 }
-
+*/

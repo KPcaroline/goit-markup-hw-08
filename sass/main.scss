@@ -1,4 +1,5 @@
 @import "./utils/hidden";
+@import "./utils/variables";
 
 @import "./base/common";
 @import "./base/container";
@@ -19,6 +20,8 @@
 @import "./layout/modal";
 @import "./layout/navigation";
 @import "./layout/our-team";
-@import "./layout/portfolio";
 @import "./layout/section-one";
 @import "./layout/what-we-do";
+
+@import "./pages/portfolio-buttons";
+@import "./pages/portfolio";

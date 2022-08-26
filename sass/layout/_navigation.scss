@@ -1,3 +1,83 @@
+@media screen and (min-width: 320px) and (max-width:767px) {
+ .navigation {
+    display: none;
+ }
+ .contacts {
+    display: none;
+ }
+    
+}
+@media screen and (min-width: 768px) {
+    .navigation {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        list-style: none;
+        display: flex;
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 23px;
+    
+    }
+    .navigation__black-text {
+        padding-left: 60px;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover &:focus {
+            color: var(--blue-color);
+            transition: color 250ms, background 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        &--underline {
+            color: var(--blue-color);
+        }
+        &--underline::after {
+            content: "";
+            position: absolute;
+            width: 58px;
+            height: 4px;
+            left: 230px;
+            top: 78px;
+            background-color: var(--blue-color);
+            border-radius: 2px;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .navigation {
+        list-style: none;
+        display: flex;
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .navigation__black-text {
+        text-decoration: none;
+        color: var(--dark-color);
+        &:hover &:focus {
+            color: var(--blue-color);
+            transition: color 250ms, background 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        &--underline {
+            color: var(--blue-color);
+        }
+        &--underline::after {
+            content: "";
+            position: absolute;
+            width: 53px;
+            height: 4px;
+            top: 78px;
+            left: 457px;
+            background-color: var(--blue-color);
+            border-radius: 2px;
+        }
+    }
+    
+}
+
+/*
 .navigation {
     padding-top: 32px;
     list-style: none;
@@ -27,3 +107,4 @@
         border-radius: 2px;
     }
 }
+*/
