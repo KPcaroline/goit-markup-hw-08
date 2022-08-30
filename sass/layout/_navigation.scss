@@ -4,9 +4,9 @@
  }
  .contacts {
     display: none;
- }
-    
+ }  
 }
+
 @media screen and (min-width: 768px) {
     .navigation {
         margin-top: 32px;
@@ -33,10 +33,10 @@
         &--underline::after {
             content: "";
             position: absolute;
-            width: 58px;
+            width: 57px;
             height: 4px;
-            left: 230px;
-            top: 78px;
+            top: 76px;
+            left: 232px;
             background-color: var(--blue-color);
             border-radius: 2px;
         }
